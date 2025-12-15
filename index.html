@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CAMPUSfind</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<style>
+  
+</style>
+<script>
+  function toggleMenu() {
+    document.getElementById("navLinks").classList.toggle("active");
+  }
+</script>
+
+<body>
+  <header class="navbar">
+  <div class="logo" style="color: white;">
+    🔍CAMPUS<i style="font-family: serif; color: tomato;">find.</i>
+  </div>
+
+  <!-- Hamburger icon goes here -->
+  <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+  <nav class="nav-links" id="navLinks">
+    <a href="./index.html" >Home</a>
+    <a href="./services.html" target="_blank">Services</a>
+    <a href="./working.html" target="_blank">Working</a>
+    <a href="./contributors.html" target="_blank">Contributors</a>
+    <button style="background-color: #007BFF; border-style: none;padding: 5px;  ">
+      <a href="./admin.html" target="_blank" style="color: rgb(255, 253, 253);">Administrator</a>
+    </button>
+  </nav>
+</header>
+
+<section class="hero-section">
+  <div class="welcome">
+    <h1><span>W</span><span>E</span><span>L</span><span>C</span><span style="color: tomato;">O</span><span>M</span><span>E</span></h1>
+    <b><i style="font-size: 19px; font-style: oblique;">
+      "Your trusted campus hub for reuniting lost items with their rightful owners.
+      We make reporting and searching simple, secure, and student-friendly. Together, we're building a supportive community where belongings always find their way back."
+    </i></b>
+  </div>
+
+  <div class="detective-img">
+    <img src="./detective.png" alt="detective" class="hero-img">
+  </div>
+</section>
+
+<section class="services-section">
+  <div class="services-card">
+    
+    <div class="services-content">
+      <h2>✨Services:</h2>
+      <p>
+        At CAMPUSfind, we provide a reliable and student-friendly platform to manage
+        lost and found items across campus. Our services include quick item reporting,
+        secure record management, and easy search functionality so students can
+        reconnect with their belongings without hassle.
+      </p>
+    </div>
+
+    <div class="services-btn">
+      <a href="./services.html">Learn more!</a>
+    </div>
+  </div>
+
+</section>
+<section class="stats-section">
+  <div class="stats-card">
+    
+    <div class="stats-content">
+      <h2>📊 Campus Stats</h2>
+      <div class="stats-list">
+        <div class="stat-row">
+          <span class="stat-label">Items Reported</span>
+          <span class="stat-value">500+</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">Items Returned</span>
+          <span class="stat-value">350+</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">Students Helped</span>
+          <span class="stat-value">2000+</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">Success Rate</span>
+          <span class="stat-value">95%</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<section class="services-section">
+  <div class="services-card">
+    
+    <div class="services-content">
+      <h2>🔑How It Work?</h2>
+      <p>
+        Report lost or found items → Records are stored securely → Students search and match items → Ownership is verified → Belongings are returned safely.
+      </p>
+    </div>
+    <div class="services-btn">
+      <a href="./working.html">Learn more!</a>
+    </div>
+  </div>
+</section>
+<footer>
+    <p>&copy;CAMPUSFIND:LOST AND FOUND MANAGEMENT SYSTEM</p>
+</footer>
+</body>
+</html>

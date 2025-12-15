@@ -1,0 +1,74 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.2);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 45px;
+
+  /* Initial blue */
+  background-color:  #0F1C3F;
+
+  /* Glass preparation */
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  transition: background-color 0.3s ease;
+}
+.navbar a:hover{
+  color: #38BDF8;
+}
+
+.logo {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  text-align: center;
+  gap:50px
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;  
+}
+
+.hamburger {
+  display: none;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+
+.nav-links.active {
+    display: flex;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 15px 25px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 20px;
+    display: none;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+    color: white;
+  }
+}
