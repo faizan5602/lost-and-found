@@ -39,6 +39,7 @@
   font-weight: 500;
   font-size: 20px;  
 }
+
 .hamburger {
   display: none;
   font-size: 1.5em;
@@ -49,6 +50,37 @@
 .nav-links.active {
     display: flex;
 }
+footer{
+  background-color:#0F1C3F;
+  text-align: center;
+  margin-top: 15px;
+  padding: 20px;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 768px) {
   .navbar {
